@@ -3,27 +3,87 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4D2A126026BA8CB400EA17A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A125F26BA8CB400EA17A2 /* AppDelegate.swift */; };
 		4D2A126226BA8CB400EA17A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A126126BA8CB400EA17A2 /* SceneDelegate.swift */; };
-		4D2A126426BA8CB400EA17A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A126326BA8CB400EA17A2 /* ViewController.swift */; };
 		4D2A126726BA8CB400EA17A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2A126526BA8CB400EA17A2 /* Main.storyboard */; };
 		4D2A126926BA8CB700EA17A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D2A126826BA8CB700EA17A2 /* Assets.xcassets */; };
 		4D2A126C26BA8CB700EA17A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2A126A26BA8CB700EA17A2 /* LaunchScreen.storyboard */; };
+		4D2A127526BA8EDB00EA17A2 /* FilmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A127426BA8EDB00EA17A2 /* FilmModel.swift */; };
+		4D2A127726BA8EF400EA17A2 /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A127626BA8EF400EA17A2 /* TimeModel.swift */; };
+		4D2A127A26BA8F2600EA17A2 /* ImageFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A127926BA8F2600EA17A2 /* ImageFetch.swift */; };
+		4D2A127C26BA8F5000EA17A2 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A127B26BA8F5000EA17A2 /* DataManager.swift */; };
+		4D2A127E26BA8F7000EA17A2 /* extension Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A127D26BA8F7000EA17A2 /* extension Array.swift */; };
+		4D2A128026BA8F8200EA17A2 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A127F26BA8F8200EA17A2 /* StorageManager.swift */; };
+		4D2A128326BA8FA100EA17A2 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A128226BA8FA100EA17A2 /* Ticket.swift */; };
+		4D2A128726BA902A00EA17A2 /* FilmListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A128626BA902A00EA17A2 /* FilmListCollectionViewController.swift */; };
+		4D2A128926BA904F00EA17A2 /* FilmListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A128826BA904F00EA17A2 /* FilmListViewModel.swift */; };
+		4D2A128C26BA907700EA17A2 /* FilmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A128B26BA907700EA17A2 /* FilmViewModel.swift */; };
+		4D2A128E26BA909400EA17A2 /* FilmCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A128D26BA909400EA17A2 /* FilmCollectionViewCell.swift */; };
+		4D2A129126BA90D600EA17A2 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A129026BA90D600EA17A2 /* InfoViewController.swift */; };
+		4D2A129326BA90F700EA17A2 /* InfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A129226BA90F700EA17A2 /* InfoViewModel.swift */; };
+		4D2A129526BA911B00EA17A2 /* ImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A129426BA911B00EA17A2 /* ImagesCollectionViewCell.swift */; };
+		4D2A129726BA915E00EA17A2 /* ImagesModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A129626BA915E00EA17A2 /* ImagesModelView.swift */; };
+		4D2A129926BA917E00EA17A2 /* DataCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A129826BA917E00EA17A2 /* DataCollectionViewCell.swift */; };
+		4D2A129B26BA919700EA17A2 /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A129A26BA919700EA17A2 /* DataViewModel.swift */; };
+		4D2A129D26BA994700EA17A2 /* TimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A129C26BA994700EA17A2 /* TimeCollectionViewCell.swift */; };
+		4D2A129F26BA996300EA17A2 /* TimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A129E26BA996300EA17A2 /* TimeViewModel.swift */; };
+		4D2A12A226BA999B00EA17A2 /* SiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A12A126BA999B00EA17A2 /* SiteViewController.swift */; };
+		4D2A12A426BA99AC00EA17A2 /* SiteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A12A326BA99AC00EA17A2 /* SiteViewModel.swift */; };
+		4D2A12A626BA99CD00EA17A2 /* SofaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A12A526BA99CD00EA17A2 /* SofaCollectionViewCell.swift */; };
+		4D2A12A826BA99E100EA17A2 /* SofaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A12A726BA99E100EA17A2 /* SofaViewModel.swift */; };
+		4D2A12AB26BA9A0E00EA17A2 /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A12AA26BA9A0E00EA17A2 /* CheckViewController.swift */; };
+		4D2A12AD26BA9A1F00EA17A2 /* CheckViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A12AC26BA9A1F00EA17A2 /* CheckViewModel.swift */; };
+		4D2A12B026BA9A4C00EA17A2 /* TicketsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A12AF26BA9A4C00EA17A2 /* TicketsTableViewController.swift */; };
+		4D2A12B226BA9A6A00EA17A2 /* OneTicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A12B126BA9A6A00EA17A2 /* OneTicketTableViewCell.swift */; };
+		4D2A12B426BA9A7D00EA17A2 /* OneTicketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A12B326BA9A7D00EA17A2 /* OneTicketViewModel.swift */; };
+		4D2A12B626BA9A9700EA17A2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A12B526BA9A9700EA17A2 /* MapViewController.swift */; };
+		5A238C8642E752646A7C2610 /* Pods_Cinema.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E0030FC9AE1D5D5660EACF1 /* Pods_Cinema.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E0030FC9AE1D5D5660EACF1 /* Pods_Cinema.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cinema.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D2A125C26BA8CB400EA17A2 /* Cinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinema.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D2A125F26BA8CB400EA17A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D2A126126BA8CB400EA17A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D2A126326BA8CB400EA17A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D2A126626BA8CB400EA17A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D2A126826BA8CB700EA17A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D2A126B26BA8CB700EA17A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D2A126D26BA8CB700EA17A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D2A127426BA8EDB00EA17A2 /* FilmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmModel.swift; sourceTree = "<group>"; };
+		4D2A127626BA8EF400EA17A2 /* TimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
+		4D2A127926BA8F2600EA17A2 /* ImageFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetch.swift; sourceTree = "<group>"; };
+		4D2A127B26BA8F5000EA17A2 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		4D2A127D26BA8F7000EA17A2 /* extension Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension Array.swift"; sourceTree = "<group>"; };
+		4D2A127F26BA8F8200EA17A2 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		4D2A128226BA8FA100EA17A2 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		4D2A128626BA902A00EA17A2 /* FilmListCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmListCollectionViewController.swift; sourceTree = "<group>"; };
+		4D2A128826BA904F00EA17A2 /* FilmListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmListViewModel.swift; sourceTree = "<group>"; };
+		4D2A128B26BA907700EA17A2 /* FilmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmViewModel.swift; sourceTree = "<group>"; };
+		4D2A128D26BA909400EA17A2 /* FilmCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D2A129026BA90D600EA17A2 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		4D2A129226BA90F700EA17A2 /* InfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewModel.swift; sourceTree = "<group>"; };
+		4D2A129426BA911B00EA17A2 /* ImagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D2A129626BA915E00EA17A2 /* ImagesModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesModelView.swift; sourceTree = "<group>"; };
+		4D2A129826BA917E00EA17A2 /* DataCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D2A129A26BA919700EA17A2 /* DataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
+		4D2A129C26BA994700EA17A2 /* TimeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D2A129E26BA996300EA17A2 /* TimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewModel.swift; sourceTree = "<group>"; };
+		4D2A12A126BA999B00EA17A2 /* SiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteViewController.swift; sourceTree = "<group>"; };
+		4D2A12A326BA99AC00EA17A2 /* SiteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteViewModel.swift; sourceTree = "<group>"; };
+		4D2A12A526BA99CD00EA17A2 /* SofaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SofaCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D2A12A726BA99E100EA17A2 /* SofaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SofaViewModel.swift; sourceTree = "<group>"; };
+		4D2A12AA26BA9A0E00EA17A2 /* CheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
+		4D2A12AC26BA9A1F00EA17A2 /* CheckViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewModel.swift; sourceTree = "<group>"; };
+		4D2A12AF26BA9A4C00EA17A2 /* TicketsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsTableViewController.swift; sourceTree = "<group>"; };
+		4D2A12B126BA9A6A00EA17A2 /* OneTicketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTicketTableViewCell.swift; sourceTree = "<group>"; };
+		4D2A12B326BA9A7D00EA17A2 /* OneTicketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTicketViewModel.swift; sourceTree = "<group>"; };
+		4D2A12B526BA9A9700EA17A2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A075B1E5487599447B92BE3C /* Pods-Cinema.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cinema.debug.xcconfig"; path = "Target Support Files/Pods-Cinema/Pods-Cinema.debug.xcconfig"; sourceTree = "<group>"; };
+		DFAB7ACF4D347117FFC305C2 /* Pods-Cinema.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cinema.release.xcconfig"; path = "Target Support Files/Pods-Cinema/Pods-Cinema.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A238C8642E752646A7C2610 /* Pods_Cinema.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +103,8 @@
 			children = (
 				4D2A125E26BA8CB400EA17A2 /* Cinema */,
 				4D2A125D26BA8CB400EA17A2 /* Products */,
+				55D1877E40837B1574A5685D /* Pods */,
+				96058E78B0DE2BF2D87541A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +121,130 @@
 			children = (
 				4D2A125F26BA8CB400EA17A2 /* AppDelegate.swift */,
 				4D2A126126BA8CB400EA17A2 /* SceneDelegate.swift */,
-				4D2A126326BA8CB400EA17A2 /* ViewController.swift */,
 				4D2A126526BA8CB400EA17A2 /* Main.storyboard */,
+				4D2A127326BA8EB400EA17A2 /* Models */,
+				4D2A127926BA8F2600EA17A2 /* ImageFetch.swift */,
+				4D2A127B26BA8F5000EA17A2 /* DataManager.swift */,
+				4D2A127D26BA8F7000EA17A2 /* extension Array.swift */,
+				4D2A127F26BA8F8200EA17A2 /* StorageManager.swift */,
+				4D2A128126BA8F9600EA17A2 /* Realm */,
+				4D2A128426BA8FF500EA17A2 /* Views */,
 				4D2A126826BA8CB700EA17A2 /* Assets.xcassets */,
 				4D2A126A26BA8CB700EA17A2 /* LaunchScreen.storyboard */,
 				4D2A126D26BA8CB700EA17A2 /* Info.plist */,
 			);
 			path = Cinema;
+			sourceTree = "<group>";
+		};
+		4D2A127326BA8EB400EA17A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D2A127626BA8EF400EA17A2 /* TimeModel.swift */,
+				4D2A127426BA8EDB00EA17A2 /* FilmModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4D2A128126BA8F9600EA17A2 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				4D2A128226BA8FA100EA17A2 /* Ticket.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		4D2A128426BA8FF500EA17A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D2A12AE26BA9A3200EA17A2 /* TicketsVC */,
+				4D2A12A926BA99F900EA17A2 /* CheckVC */,
+				4D2A12A026BA998200EA17A2 /* SiteVC */,
+				4D2A128F26BA90BA00EA17A2 /* Info */,
+				4D2A128526BA900900EA17A2 /* FilmVC */,
+				4D2A12B526BA9A9700EA17A2 /* MapViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4D2A128526BA900900EA17A2 /* FilmVC */ = {
+			isa = PBXGroup;
+			children = (
+				4D2A128626BA902A00EA17A2 /* FilmListCollectionViewController.swift */,
+				4D2A128826BA904F00EA17A2 /* FilmListViewModel.swift */,
+				4D2A128A26BA906800EA17A2 /* Cell */,
+			);
+			path = FilmVC;
+			sourceTree = "<group>";
+		};
+		4D2A128A26BA906800EA17A2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4D2A128B26BA907700EA17A2 /* FilmViewModel.swift */,
+				4D2A128D26BA909400EA17A2 /* FilmCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4D2A128F26BA90BA00EA17A2 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				4D2A129026BA90D600EA17A2 /* InfoViewController.swift */,
+				4D2A129226BA90F700EA17A2 /* InfoViewModel.swift */,
+				4D2A129426BA911B00EA17A2 /* ImagesCollectionViewCell.swift */,
+				4D2A129626BA915E00EA17A2 /* ImagesModelView.swift */,
+				4D2A129826BA917E00EA17A2 /* DataCollectionViewCell.swift */,
+				4D2A129A26BA919700EA17A2 /* DataViewModel.swift */,
+				4D2A129C26BA994700EA17A2 /* TimeCollectionViewCell.swift */,
+				4D2A129E26BA996300EA17A2 /* TimeViewModel.swift */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		4D2A12A026BA998200EA17A2 /* SiteVC */ = {
+			isa = PBXGroup;
+			children = (
+				4D2A12A126BA999B00EA17A2 /* SiteViewController.swift */,
+				4D2A12A326BA99AC00EA17A2 /* SiteViewModel.swift */,
+				4D2A12A526BA99CD00EA17A2 /* SofaCollectionViewCell.swift */,
+				4D2A12A726BA99E100EA17A2 /* SofaViewModel.swift */,
+			);
+			path = SiteVC;
+			sourceTree = "<group>";
+		};
+		4D2A12A926BA99F900EA17A2 /* CheckVC */ = {
+			isa = PBXGroup;
+			children = (
+				4D2A12AA26BA9A0E00EA17A2 /* CheckViewController.swift */,
+				4D2A12AC26BA9A1F00EA17A2 /* CheckViewModel.swift */,
+			);
+			path = CheckVC;
+			sourceTree = "<group>";
+		};
+		4D2A12AE26BA9A3200EA17A2 /* TicketsVC */ = {
+			isa = PBXGroup;
+			children = (
+				4D2A12AF26BA9A4C00EA17A2 /* TicketsTableViewController.swift */,
+				4D2A12B126BA9A6A00EA17A2 /* OneTicketTableViewCell.swift */,
+				4D2A12B326BA9A7D00EA17A2 /* OneTicketViewModel.swift */,
+			);
+			path = TicketsVC;
+			sourceTree = "<group>";
+		};
+		55D1877E40837B1574A5685D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A075B1E5487599447B92BE3C /* Pods-Cinema.debug.xcconfig */,
+				DFAB7ACF4D347117FFC305C2 /* Pods-Cinema.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		96058E78B0DE2BF2D87541A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E0030FC9AE1D5D5660EACF1 /* Pods_Cinema.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D2A127026BA8CB700EA17A2 /* Build configuration list for PBXNativeTarget "Cinema" */;
 			buildPhases = (
+				C8AA1A3D75F7F9E1652827D4 /* [CP] Check Pods Manifest.lock */,
 				4D2A125826BA8CB400EA17A2 /* Sources */,
 				4D2A125926BA8CB400EA17A2 /* Frameworks */,
 				4D2A125A26BA8CB400EA17A2 /* Resources */,
+				F55ED447DC26EF555A87BEF9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +314,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C8AA1A3D75F7F9E1652827D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cinema-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F55ED447DC26EF555A87BEF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cinema/Pods-Cinema-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cinema/Pods-Cinema-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cinema/Pods-Cinema-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D2A125826BA8CB400EA17A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D2A126426BA8CB400EA17A2 /* ViewController.swift in Sources */,
+				4D2A12B626BA9A9700EA17A2 /* MapViewController.swift in Sources */,
+				4D2A12A826BA99E100EA17A2 /* SofaViewModel.swift in Sources */,
 				4D2A126026BA8CB400EA17A2 /* AppDelegate.swift in Sources */,
+				4D2A127C26BA8F5000EA17A2 /* DataManager.swift in Sources */,
+				4D2A128926BA904F00EA17A2 /* FilmListViewModel.swift in Sources */,
+				4D2A129B26BA919700EA17A2 /* DataViewModel.swift in Sources */,
+				4D2A127E26BA8F7000EA17A2 /* extension Array.swift in Sources */,
+				4D2A128E26BA909400EA17A2 /* FilmCollectionViewCell.swift in Sources */,
+				4D2A12AD26BA9A1F00EA17A2 /* CheckViewModel.swift in Sources */,
+				4D2A129326BA90F700EA17A2 /* InfoViewModel.swift in Sources */,
+				4D2A129526BA911B00EA17A2 /* ImagesCollectionViewCell.swift in Sources */,
+				4D2A129726BA915E00EA17A2 /* ImagesModelView.swift in Sources */,
+				4D2A12B426BA9A7D00EA17A2 /* OneTicketViewModel.swift in Sources */,
+				4D2A129D26BA994700EA17A2 /* TimeCollectionViewCell.swift in Sources */,
+				4D2A129F26BA996300EA17A2 /* TimeViewModel.swift in Sources */,
+				4D2A127526BA8EDB00EA17A2 /* FilmModel.swift in Sources */,
+				4D2A128726BA902A00EA17A2 /* FilmListCollectionViewController.swift in Sources */,
+				4D2A128C26BA907700EA17A2 /* FilmViewModel.swift in Sources */,
+				4D2A128326BA8FA100EA17A2 /* Ticket.swift in Sources */,
+				4D2A12A626BA99CD00EA17A2 /* SofaCollectionViewCell.swift in Sources */,
+				4D2A12A226BA999B00EA17A2 /* SiteViewController.swift in Sources */,
+				4D2A127726BA8EF400EA17A2 /* TimeModel.swift in Sources */,
+				4D2A12AB26BA9A0E00EA17A2 /* CheckViewController.swift in Sources */,
+				4D2A129126BA90D600EA17A2 /* InfoViewController.swift in Sources */,
+				4D2A12B026BA9A4C00EA17A2 /* TicketsTableViewController.swift in Sources */,
+				4D2A127A26BA8F2600EA17A2 /* ImageFetch.swift in Sources */,
+				4D2A12B226BA9A6A00EA17A2 /* OneTicketTableViewCell.swift in Sources */,
 				4D2A126226BA8CB400EA17A2 /* SceneDelegate.swift in Sources */,
+				4D2A129926BA917E00EA17A2 /* DataCollectionViewCell.swift in Sources */,
+				4D2A12A426BA99AC00EA17A2 /* SiteViewModel.swift in Sources */,
+				4D2A128026BA8F8200EA17A2 /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +535,7 @@
 		};
 		4D2A127126BA8CB700EA17A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A075B1E5487599447B92BE3C /* Pods-Cinema.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +554,7 @@
 		};
 		4D2A127226BA8CB700EA17A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFAB7ACF4D347117FFC305C2 /* Pods-Cinema.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
