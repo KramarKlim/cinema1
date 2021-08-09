@@ -12,7 +12,7 @@
         <!--Фильмы-->
         <scene sceneID="PII-Rd-big">
             <objects>
-                <collectionViewController restorationIdentifier="FilmViewController" storyboardIdentifier="FilmViewController" id="dh1-u7-Sje" customClass="FilmListCollectionViewController" customModule="Cinema1" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController restorationIdentifier="FilmViewController" storyboardIdentifier="FilmViewController" id="dh1-u7-Sje" customClass="FilmListCollectionViewController" customModule="Cinema" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="zV3-Br-P5z">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -25,7 +25,7 @@
                             <inset key="sectionInset" minX="16" minY="20" maxX="16" maxY="20"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="hQf-lH-JKn" customClass="FilmCollectionViewCell" customModule="Cinema1" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="hQf-lH-JKn" customClass="FilmCollectionViewCell" customModule="Cinema" customModuleProvider="target">
                                 <rect key="frame" x="16" y="20" width="140" height="234"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="0iQ-An-yCu">
@@ -85,13 +85,13 @@
         <!--Билеты-->
         <scene sceneID="QBe-jD-kDO">
             <objects>
-                <tableViewController id="SGf-G1-YDB" customClass="TicketsTableViewController" customModule="Cinema1" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="SGf-G1-YDB" customClass="TicketsTableViewController" customModule="Cinema" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="mIP-IZ-Eao">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ticket" rowHeight="87" id="iml-SU-izL" customClass="OneTicketTableViewCell" customModule="Cinema1" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ticket" rowHeight="87" id="iml-SU-izL" customClass="OneTicketTableViewCell" customModule="Cinema" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="24.5" width="414" height="87"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iml-SU-izL" id="PwC-F3-4u8">
@@ -153,7 +153,7 @@
         <!--Карта-->
         <scene sceneID="Hxj-nf-w3F">
             <objects>
-                <viewController id="oh3-p5-zVh" customClass="MapViewController" customModule="Cinema1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="oh3-p5-zVh" customClass="MapViewController" customModule="Cinema" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nWn-Oc-l2E">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -183,7 +183,7 @@
         <!--Info View Controller-->
         <scene sceneID="a0v-ws-Tfe">
             <objects>
-                <viewController id="rbJ-h8-5LE" customClass="InfoViewController" customModule="Cinema1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rbJ-h8-5LE" customClass="InfoViewController" customModule="Cinema" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="opT-NU-jgs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -198,7 +198,7 @@
                                     <inset key="sectionInset" minX="16" minY="10" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" reuseIdentifier="images" id="8Qp-E8-RqY" customClass="ImagesCollectionViewCell" customModule="Cinema1" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" reuseIdentifier="images" id="8Qp-E8-RqY" customClass="ImagesCollectionViewCell" customModule="Cinema" customModuleProvider="target">
                                         <rect key="frame" x="16" y="34.5" width="173" height="134"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="zhe-Fy-zSe">
@@ -261,7 +261,7 @@
                                     <inset key="sectionInset" minX="16" minY="0.0" maxX="16" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="data" id="THW-1d-ymQ" customClass="DataCollectionViewCell" customModule="Cinema1" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="data" id="THW-1d-ymQ" customClass="DataCollectionViewCell" customModule="Cinema" customModuleProvider="target">
                                         <rect key="frame" x="16" y="35.5" width="94" height="95"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="fne-JI-IAu">
@@ -329,7 +329,7 @@
                                     <inset key="sectionInset" minX="16" minY="0.0" maxX="16" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="time" id="167-td-h4z" customClass="TimeCollectionViewCell" customModule="Cinema1" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="time" id="167-td-h4z" customClass="TimeCollectionViewCell" customModule="Cinema" customModuleProvider="target">
                                         <rect key="frame" x="16" y="35" width="94" height="95"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="FSF-lj-uuv">
@@ -407,8 +407,8 @@
                             <constraint firstItem="FGk-NY-4gj" firstAttribute="height" secondItem="opT-NU-jgs" secondAttribute="height" multiplier="0.184408" id="nXK-la-uPW"/>
                             <constraint firstItem="TcP-C3-caW" firstAttribute="trailing" secondItem="kUc-q9-xLm" secondAttribute="trailing" constant="16" id="nsL-gj-xed"/>
                             <constraint firstItem="8w3-My-PCc" firstAttribute="leading" secondItem="TcP-C3-caW" secondAttribute="leading" constant="16" id="pnR-XY-eOn"/>
+                            <constraint firstItem="FGk-NY-4gj" firstAttribute="top" secondItem="7ZF-HA-DLP" secondAttribute="bottom" constant="25.5" id="r1E-co-fT3"/>
                             <constraint firstItem="TcP-C3-caW" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8w3-My-PCc" secondAttribute="trailing" symbolic="YES" id="tvA-ut-WHc"/>
-                            <constraint firstItem="7ZF-HA-DLP" firstAttribute="top" secondItem="lBd-Tl-UCJ" secondAttribute="bottom" constant="15" id="vRQ-b7-Mqt"/>
                             <constraint firstItem="jbk-hk-uoW" firstAttribute="leading" secondItem="TcP-C3-caW" secondAttribute="leading" id="wcE-0J-OGD"/>
                         </constraints>
                     </view>
@@ -430,7 +430,7 @@
         <!--Site View Controller-->
         <scene sceneID="afZ-5b-gKq">
             <objects>
-                <viewController id="Q4e-FP-YLh" customClass="SiteViewController" customModule="Cinema1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Q4e-FP-YLh" customClass="SiteViewController" customModule="Cinema" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RLs-CA-hLG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -456,7 +456,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="site" id="dCO-iW-1fi" customClass="SofaCollectionViewCell" customModule="Cinema1" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="site" id="dCO-iW-1fi" customClass="SofaCollectionViewCell" customModule="Cinema" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="63" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="U5b-oD-HoG">
@@ -532,7 +532,7 @@
         <!--Check View Controller-->
         <scene sceneID="suI-Mq-nNM">
             <objects>
-                <viewController id="VEQ-X5-PF5" customClass="CheckViewController" customModule="Cinema1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VEQ-X5-PF5" customClass="CheckViewController" customModule="Cinema" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dsd-MV-oaN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

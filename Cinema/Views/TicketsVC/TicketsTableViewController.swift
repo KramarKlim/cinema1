@@ -33,7 +33,6 @@ class TicketsTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ticket", for: indexPath) as! OneTicketTableViewCell
-        
         let ticket = tickets[indexPath.row]
         cell.viewModel = OneTicketViewModel(name: ticket.name, time: ticket.time, price: ticket.price)
 
@@ -52,6 +51,18 @@ class TicketsTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        1
+    }
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        if tickets.count == 0 {
+            return "Билеты отсутствуют"
+        } else {
+            return "Ваши билеты"
+        }
     }
 
 }
